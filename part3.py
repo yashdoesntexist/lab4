@@ -22,5 +22,5 @@ partitioned_result = partitioned.reduceByKey(lambda a, b: a + b)
 
 print(partitioned_result.take(10))
 
-
+#Q2
 #Custom partitioning lets you control where keys go, which can improve load balancing if the key distribution matches your partition logic.
