@@ -1,4 +1,4 @@
-from pyspark import SparkContext # donno if i can upload venv
+from pyspark import SparkContext
 
 sc = SparkContext('local', 'WordCountLab')
 
