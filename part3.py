@@ -32,5 +32,6 @@ print(partitioned_result.take(10))
 # This prevents one partition from receiving too many records and becoming a bottleneck.
 #  As a result, work is distributed more evenly, and overall job performance improves.
 
-#Q2 
+#Q2 Reflection question 
+
 #A Custom partitioning lets you control where keys go, which can improve load balancing if the key distribution matches your partition logic.
