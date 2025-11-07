@@ -1,5 +1,8 @@
 from pyspark import SparkContext # donno if i can upload venv
 
+# part 1
+# Liams works
+
 sc = SparkContext('local', 'WordCountLab')
 
 data = sc.textFile("sample_reviews_text.txt")
@@ -10,7 +13,7 @@ result = pairs.reduceByKey(lambda a, b: a + b)
 
 result.take(10)
 
-
+#Part 3
 def first_letter_partitioner(key):
     return ord(key[0].lower()) % 3  
 
