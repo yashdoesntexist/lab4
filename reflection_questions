@@ -1,6 +1,7 @@
 Reflection Questions
 1. 
-2. 
+2. A Custom partitioning lets you control where keys go, which can improve load balancing if the key distribution 
+   matches your partition logic.
 3. 
 4. 
 5. 
