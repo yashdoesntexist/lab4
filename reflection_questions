@@ -6,5 +6,6 @@ Reflection Questions
    this program upon multiple computers the whole idea is to partion the work. However since "the" is used an order 
    of magnitude more then other key words it would take longer to complete. This would then slow the whole system 
    as it would wait for "the" to be done reducing.
-4. 
+4. Salting is an effective technique to solve data skew in Spark. It spreads heavy keys across multiple reducers, 
+   balances tasks, prevents slowdown, and improves the overall performance of distributed data processing.
 5. We could detect this by looking at the tasks, specifically for a long run time or a large input size.
