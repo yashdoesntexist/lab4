@@ -4,4 +4,4 @@ Reflection Questions
    matches your partition logic.
 3. 
 4. 
-5. 
+5. We could detect this by looking at the tasks, specifically for a long run time or a large input size.
