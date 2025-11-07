@@ -2,6 +2,9 @@ Reflection Questions
 1. 
 2. A Custom partitioning lets you control where keys go, which can improve load balancing if the key distribution 
    matches your partition logic.
-3. 
+3. The main problem that arises when one key dominates your dataset is it consumes too many resources. When running 
+   this program upon multiple computers the whole idea is to partion the work. However since "the" is used an order 
+   of magnitude more then other key words it would take longer to complete. This would then slow the whole system 
+   as it would wait for "the" to be done reducing.
 4. 
 5. We could detect this by looking at the tasks, specifically for a long run time or a large input size.
